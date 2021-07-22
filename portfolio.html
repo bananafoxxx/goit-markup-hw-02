@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="/" class="logo header__logo">
+          <span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span>
+        </a>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="./index.html" target="_self">Студия</a>
+          </li>
+          <li class="nav__item nav__item--current">
+            <a class="nav__link" href="portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="header-contact">
+        <li class="header-contact__item">
+          <a class="header-tel__link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+        <li class="header-contact__item">
+          <a class="header-mail__link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <section>
+        <ul class="btns__list">
+          <li class="btn-item">
+            <button type="button" class="radio-btn btn-all">Все</button>
+          </li>
+          <li class="btn-item">
+            <button type="button" class="radio-btn btn-sites">Веб-сайты</button>
+          </li>
+          <li class="btn-item">
+            <button type="button" class="radio-btn btn-app">Приложения</button>
+          </li>
+          <li class="btn-item">
+            <button type="button" class="radio-btn btn-design">Дизайн</button>
+          </li>
+          <li class="btn-item">
+            <button type="button" class="radio-btn btn-marketing">
+              Маркетинг
+            </button>
+          </li>
+        </ul>
+
+        <div class="portfolio">
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-techno-1.jpg"
+                alt="Сайт Технокряк"
+                width="370"
+              />
+              <h2 class="portfolio__title">Технокряк</h2>
+              <p class="portfolio__descr">Веб-сайт</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-neworlean-2.jpg"
+                alt="Баскетбольный постер"
+                width="370"
+              />
+              <h2 class="portfolio__title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio__descr">Дизайн</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-tseafood-3.jpg"
+                alt="Ресторан морепродуктов"
+                width="370"
+              />
+              <h2 class="portfolio__title">Ресторан Seafood</h2>
+              <p class="portfolio__desc">Приложение</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-prime-4.jpg"
+                alt="Прайм"
+                width="370"
+              />
+              <h2 class="portfolio__title">Проект Prime</h2>
+              <p class="portfolio__desc">Маркетинг</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-boxes-5.jpg"
+                alt="Проект Коробки"
+                width="370"
+              />
+              <h2 class="portfolio__title">Проект Boxes</h2>
+              <p class="portfolio__desc">Приложение</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-insp-6.jpg"
+                alt="Сайт Вдохновения"
+                width="370"
+              />
+              <h2 class="portfolio__title">Inspiration has no Borders</h2>
+              <p class="portfolio__desc">Веб-сайт</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-limited-7.jpg"
+                alt="Издание журнала"
+                width="370"
+              />
+              <h2 class="portfolio__title">Издание Limited Edition</h2>
+              <p class="portfolio__desc">Дизайн</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-lab-8.jpg"
+                alt="Проект ЛАБ"
+                width="370"
+              />
+              <h2 class="portfolio__title">Проект LAB</h2>
+              <p class="portfolio__desc">Маркетинг</p>
+            </li>
+
+            <li class="portfolio__item">
+              <img
+                class="portfolio__img"
+                src="./images/img/portfolio-growing-9.jpg"
+                alt="Расширение бизнеса"
+                width="370"
+              />
+              <h2 class="portfolio__title">Growing Business</h2>
+              <p class="portfolio__desc">Приложение</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="/" class="logo footer__logo">
+        <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
+      </a>
+
+      <address class="footer-contact">
+        <ul class="footer-contact__list">
+          <li class="footer-contact__item">
+            <a class="footer__link footer-direction" href="#"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li class="footer-contact__item">
+            <a class="footer__link footer-mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="footer-contact__item">
+            <a class="footer__link footer-tel" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
